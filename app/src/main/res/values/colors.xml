@@ -23,5 +23,32 @@
     <color name="BlueButton.Font">#031889</color>
     <color name="BlueButton.Border">#98C7ED</color>
 
+    <!-- Д/з Colored Theme Colors -->
+    <color name="Color.Background">#C977F6</color>
+    <color name="Color.Font">#EFFA88</color>
+    <color name="Color.Button.Background">#AF8FEB</color>
+    <color name="Color.Button.Font">#FF3F03</color>
+    <color name="Color.Button.Border">#0328FB</color>
 
+
+    <!-- Д/з Light Theme Colors -->
+    <color name="Light.Background">#FFFFFF</color>
+    <color name="Light.Font">#000000</color>
+    <color name="Light.Button.Background">#E0E0E0</color>
+    <color name="Light.Button.Font">#000000</color>
+    <color name="Light.Button.Border">#9E9E9E</color>
+
+    <!-- Д/з Dark Theme Colors -->
+    <color name="Dark.Background">#333333</color>
+    <color name="Dark.Font">#FFFFFF</color>
+    <color name="Dark.Button.Background">#424242</color>
+    <color name="Dark.Button.Font">#FFFFFF</color>
+    <color name="Dark.Button.Border">#616161</color>
+
+    <!-- Д/з Blue Theme Colors -->
+    <color name="Blue.Background">#3B4FB8</color>
+    <color name="Blue.Font">#C8EFFB</color>
+    <color name="Blue.Button.Background">#637BFF</color>
+    <color name="Blue.Button.Font">#B2D9FB</color>
+    <color name="Blue.Button.Border">#365ACF</color>
 </resources>

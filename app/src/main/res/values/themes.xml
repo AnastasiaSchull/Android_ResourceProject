@@ -7,7 +7,7 @@
         <item name="colorOnPrimary">#8EF692</item>
         <item name="colorPrimaryContainer">#F8E19D</item>
         <item name="android:colorSecondary">#9AA7EF</item>
-        <item name="android:textColorPrimary">#F08F88</item>
+        <item name="android:textColorPrimary">#A67CF0</item>
         <item name="colorOnSecondary">#8BEAF6</item>
         <item name="android:textSize">24sp</item>
         <!--<item name="android:actionBarSize">40dp</item>-->

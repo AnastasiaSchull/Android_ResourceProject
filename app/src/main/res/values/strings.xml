@@ -8,9 +8,9 @@
     <string name="en">En</string>
     <string name="uk">Uk</string>
     <string name="themes">Themes</string>
-    <string name="light">Light</string>
+    <!--<string name="light">Light</string>
     <string name="dark">Dark</string>
-    <string name="colored">Colored</string>
+    <string name="colored">Colored</string>-->
     <string name="en_gb">En GB</string>
 
     <string name="reverse_landscape">Reverse Landscape</string>
@@ -23,4 +23,8 @@
     <string name="full_user">Full User</string>
     <string name="locked">Locked</string>
 
+    <string name="light_theme">Light</string>
+    <string name="dark_theme">Dark</string>
+    <string name="blue_theme">Blue</string>
+    <string name="colored_theme">Colored</string>
 </resources>
