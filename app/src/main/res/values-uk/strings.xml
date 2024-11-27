@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ресурси</string>
+    <string name="portrait">Портретна</string>
+    <string name="landscape">Ландшафтна</string>
+    <string name="sensor">Сенсор</string>
+    <string name="orientations">Орiэнтацiя</string>
+    <string name="locales">Локалiзацiя</string>
+    <string name="en">Англiйська</string>
+    <string name="uk">Украiнська</string>
+    <string name="themes">Теми</string>
+    <string name="light">Свiтла</string>
+    <string name="dark">Темна</string>
+    <string name="colored">Кольорова</string>
+    <string name="en_gb">En GB</string>
+    <string name="reverse_landscape">Зворотній ландшафт</string>
+    <string name="reverse_portrait">Зворотній портрет</string>
+    <string name="user_portrait">Портрет користувача</string>
+    <string name="unspecified">Невизначено</string>
+    <string name="sensor_portrait">Сенсорний портрет</string>
+    <string name="sensor_landscape">Сенсорний ландшафт</string>
+    <string name="full_sensor">Повний сенсор</string>
+    <string name="full_user">Повний користувач</string>
+    <string name="locked">Заблоковано</string>
+</resources>

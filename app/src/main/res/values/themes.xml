@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- <style name="Base.Theme.ResourceProject" parent="Theme.AppCompat.DayNight">-->
+        <style name="Base.Theme.ResourceProject" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/light_gray</item>
+        <item name="colorOnPrimary">#8EF692</item>
+        <item name="colorPrimaryContainer">#F8E19D</item>
+        <item name="android:colorSecondary">#9AA7EF</item>
+        <item name="android:textColorPrimary">#F08F88</item>
+        <item name="colorOnSecondary">#8BEAF6</item>
+        <item name="android:textSize">24sp</item>
+        <!--<item name="android:actionBarSize">40dp</item>-->
+        <!--  <item name="android:background">#C59BCC</item>-->
+    </style>
+
+    <style name="Theme.ResourceProject" parent="Base.Theme.ResourceProject" />
+
+    <style name="MyButtonStyle" parent="Widget.Material3.Button">
+
+    </style>
+</resources>

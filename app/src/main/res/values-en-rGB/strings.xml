@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resource GB</string>
+    <string name="portrait">Portrait GB</string>
+    <string name="landscape">Landscape</string>
+    <string name="sensor">Sensor</string>
+    <string name="orientations">Orientations</string>
+    <string name="locales">Locales</string>
+    <string name="en">En</string>
+    <string name="uk">Uk</string>
+    <string name="themes">Themes</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="colored">Colored</string>
+    <string name="en_gb">En GB</string>
+    <string name="reverse_landscape">Reverse Landscape</string>
+    <string name="reverse_portrait">Reverse Portrait</string>
+    <string name="user_portrait">User Portrait</string>
+    <string name="unspecified">Unspecified</string>
+    <string name="sensor_portrait">Sensor Portrait</string>
+    <string name="sensor_landscape">Sensor Landscape</string>
+    <string name="full_sensor">Full Sensor</string>
+    <string name="full_user">Full User</string>
+    <string name="locked">Locked</string>
+</resources>

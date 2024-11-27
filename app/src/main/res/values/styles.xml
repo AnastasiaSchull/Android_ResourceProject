@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--2-->
+    <style name="ColorButtonShape" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <!--Color Theme-->
+    <style name="ColorButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/ColorButton.Background</item>
+        <item name="android:textColor">@color/ColorButton.Font</item>
+        <item name="strokeColor">@color/BlueButton.Border</item>
+        <item name="strokeWidth">3dp</item>
+        <!--<item name="cornerRadius">10dp</item>-->
+        <item name="shapeAppearanceOverlay">@style/ColorButtonShape</item>
+    </style>
+   <style name="Color.Theme.ResourceProject" parent="Theme.Material3.DayNight">
+       <item name="colorOnPrimary">#8EF692</item>
+       <item name="materialButtonStyle">@style/ColorButton</item>
+   </style>
+
+
+    <!--Blue Theme-->
+    <style name="BlueButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/BlueButton.Background</item>
+        <item name="android:textColor">@color/BlueButton.Font</item>
+        <item name="strokeColor">@color/BlueButton.Border</item>
+        <item name="strokeWidth">3dp</item>
+        <!--<item name="cornerRadius">10dp</item>-->
+        <item name="shapeAppearanceOverlay">@style/ColorButtonShape</item>
+    </style>
+    <style name="Blue.Theme.ResourceProject" parent="Theme.Material3.DayNight">
+        <item name="colorOnPrimary">#8EF692</item>
+        <item name="materialButtonStyle">@style/BlueButton</item>
+    </style>
+</resources>

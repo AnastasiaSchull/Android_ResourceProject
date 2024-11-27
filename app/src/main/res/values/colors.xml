@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="light_gray">#ABABAB</color>
+    <color name="ref">@color/light_gray</color>
+<!-->Light theme-->
+    <color name="background_light">#C4B2EB</color>
+    <color name="font_light">#3D344D</color>
+
+<!-->Dark theme-->
+    <color name="background_dark">#3D344D</color>
+    <color name="font_dark">#C4B2EB</color>
+
+    <!--ColorButton-->
+    <color name="ColorButton.Background">#FAB29B</color>
+    <color name="ColorButton.Font">#950536</color>
+    <color name="ColorButton.Border">#F083A2</color>
+
+    <!--BlueButton-->
+    <color name="BlueButton.Background">#2196F3</color>
+    <color name="BlueButton.Font">#031889</color>
+    <color name="BlueButton.Border">#98C7ED</color>
+
+
+</resources>

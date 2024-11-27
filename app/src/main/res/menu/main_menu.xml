@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/orientationMenu"
+        android:title="@string/orientations">
+        <menu >
+            <item
+                android:id="@+id/portraitMenu"
+                android:title="@string/portrait" />
+            <item
+                android:id="@+id/landscapeMenu"
+                android:title="@string/landscape" />
+            <item
+                android:id="@+id/sensorMenu"
+                android:title="@string/sensor" />
+
+            <item
+                android:id="@+id/reverseLandscapeMenu"
+                android:title="@string/reverse_landscape" />
+            <item
+                android:id="@+id/reversePortraitMenu"
+                android:title="@string/reverse_portrait" />
+            <item
+                android:id="@+id/userPortraitMenu"
+                android:title="@string/user_portrait" />
+
+            <item android:id="@+id/unspecifiedMenu"
+                android:title="@string/unspecified"/>
+
+            <item android:id="@+id/sensorPortraitMenu"
+                android:title="@string/sensor_portrait"/>
+
+            <item android:id="@+id/sensorLandscapeMenu"
+                android:title="@string/sensor_landscape"/>
+
+            <item android:id="@+id/fullSensorMenu"
+                android:title="@string/full_sensor"/>
+
+            <item android:id="@+id/fullUserMenu"
+                android:title="@string/full_user"/>
+
+            <item android:id="@+id/lockedMenu"
+                android:title="@string/locked"/>
+
+        </menu>
+    </item>
+    <item android:title="@string/locales" >
+        <menu >
+            <item
+                android:id="@+id/enLocaleMenu"
+                android:title="@string/en" />
+            <item
+                android:id="@+id/ukLocaleMenu"
+                android:title="@string/uk" />
+            <item
+                android:id="@+id/enGBLocaleMenu"
+                android:title="@string/en_gb" />
+        </menu>
+    </item>
+    <item android:title="@string/themes">
+        <menu >
+            <item
+                android:id="@+id/lightThemeMenu"
+                android:title="@string/light" />
+            <item
+                android:id="@+id/darkThemeMenu"
+                android:title="@string/dark" />
+            <item
+                android:id="@+id/coloredThemeMenu"
+                android:title="@string/colored" />
+        </menu>
+    </item>
+</menu>
