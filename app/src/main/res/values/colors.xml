@@ -1,54 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--эти теги ресурсов( в данном случае color) позволяют нам сохранять необходимые цвета в ресурсах и далее мы можем их использовать в разных частях проекта-->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#AFAFAF</color>
 
-    <color name="light_gray">#ABABAB</color>
+    <!--также в ресурсах мы можем ссылаться на другой цвет, на уже ранее созданный-->
     <color name="ref">@color/light_gray</color>
-<!-->Light theme-->
-    <color name="background_light">#C4B2EB</color>
-    <color name="font_light">#3D344D</color>
 
-<!-->Dark theme-->
-    <color name="background_dark">#3D344D</color>
-    <color name="font_dark">#C4B2EB</color>
+    <!--Light theme-->
+    <color name="background_light">#D5D5D5</color>
+    <color name="font_light">#494949</color>
+
+    <!--Dark theme-->
+    <color name="background_dark">#4D4D4D</color>
+    <color name="font_dark">#CACACA</color>
 
     <!--ColorButton-->
-    <color name="ColorButton.Background">#FAB29B</color>
-    <color name="ColorButton.Font">#950536</color>
-    <color name="ColorButton.Border">#F083A2</color>
+    <color name="ColorButton.Background">#8CC3C8</color>
+    <color name="ColorButton.Font">#0044C8</color>
+    <color name="ColorButton.Border">#6200EA</color>
+    <color name="ColorButton.Button.Background">#AF8FEB</color>
+    <color name="ColorButton.Button.Font">#D567E7</color>
+    <color name="ColorButton.Button.Border">#0328FB</color>
 
     <!--BlueButton-->
-    <color name="BlueButton.Background">#2196F3</color>
-    <color name="BlueButton.Font">#031889</color>
-    <color name="BlueButton.Border">#98C7ED</color>
-
-    <!-- Д/з Colored Theme Colors -->
-    <color name="Color.Background">#C977F6</color>
-    <color name="Color.Font">#EFFA88</color>
-    <color name="Color.Button.Background">#AF8FEB</color>
-    <color name="Color.Button.Font">#FF3F03</color>
-    <color name="Color.Button.Border">#0328FB</color>
+    <color name="BlueButton.Background">#3B4FB8</color>
+    <color name="BlueButton.Font">#DBDBDB</color>
+    <color name="BlueButton.Border">#00B8D4</color>
+    <color name="BlueButton.Button.Font">#B2D9FB</color>
+    <color name="BlueButton.Button.Border">#365ACF</color>-->
 
 
     <!-- Д/з Light Theme Colors -->
-    <color name="Light.Background">#FFFFFF</color>
-    <color name="Light.Font">#000000</color>
-    <color name="Light.Button.Background">#E0E0E0</color>
-    <color name="Light.Button.Font">#000000</color>
-    <color name="Light.Button.Border">#9E9E9E</color>
+    <color name="LightButton.Background">#FFFFFF</color>
+    <color name="LightButton.Font">#000000</color>
+    <color name="LightButton.Button.Background">#E0E0E0</color>
+    <color name="LightButton.Button.Font">#000000</color>
+    <color name="LightButton.Button.Border">#9E9E9E</color>
 
     <!-- Д/з Dark Theme Colors -->
-    <color name="Dark.Background">#333333</color>
-    <color name="Dark.Font">#FFFFFF</color>
-    <color name="Dark.Button.Background">#424242</color>
-    <color name="Dark.Button.Font">#FFFFFF</color>
-    <color name="Dark.Button.Border">#616161</color>
+    <color name="DarkButton.Background">#333333</color>
+    <color name="DarkButton.Font">#FFFFFF</color>
+    <color name="DarkButton.Button.Background">#424242</color>
+    <color name="DarkButton.Button.Font">#FFFFFF</color>
+    <color name="DarkButton.Button.Border">#616161</color>
 
-    <!-- Д/з Blue Theme Colors -->
-    <color name="Blue.Background">#3B4FB8</color>
-    <color name="Blue.Font">#C8EFFB</color>
-    <color name="Blue.Button.Background">#637BFF</color>
-    <color name="Blue.Button.Font">#B2D9FB</color>
-    <color name="Blue.Button.Border">#365ACF</color>
 </resources>

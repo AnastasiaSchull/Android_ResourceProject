@@ -60,21 +60,6 @@
     </item>
     <item android:title="@string/themes">
         <menu >
-
-           <!--class work
-            <item
-                android:id="@+id/lightThemeMenu"
-                android:title="@string/light" />
-            <item
-                android:id="@+id/darkThemeMenu"
-                android:title="@string/dark" />
-            <item
-                android:id="@+id/coloredThemeMenu"
-                android:title="@string/colored" />
-            -->
-
-
-            <!--Д/з-->
             <item
                 android:id="@+id/lightThemeOption"
                 android:title="@string/light_theme" />

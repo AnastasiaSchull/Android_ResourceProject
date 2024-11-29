@@ -1,22 +1,41 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <!-- <style name="Base.Theme.ResourceProject" parent="Theme.AppCompat.DayNight">-->
+    <!-- <style отвечает за тему, которая устанавливается-->
+    <!-- здесь родительской темой является системная тема-->
+    <!-- изначально, при создании проекта, у нас был parent="Theme.Material3.DayNight.NoActionBar"- спрятанный был заголовок-->
+    <!--Material3 новая тема, а ранее был AppCompact, то есть можно написать так  <style name="Base.Theme.ResourceProject" parent="Theme.AppCompact.DayNight">-->
         <style name="Base.Theme.ResourceProject" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
+        <!-- colorPrimary меняет цвет кнопок , а colorOnPrimary и colorPrimaryContainer не сработали-->
+        <!--настройки On, по идее, предназначены для изменения текста-->
         <item name="colorPrimary">@color/light_gray</item>
-        <item name="colorOnPrimary">#8EF692</item>
-        <item name="colorPrimaryContainer">#F8E19D</item>
-        <item name="android:colorSecondary">#9AA7EF</item>
-        <item name="android:textColorPrimary">#A67CF0</item>
-        <item name="colorOnSecondary">#8BEAF6</item>
+        <item name="colorOnPrimary">#CA6A6A</item>
+        <item name="colorPrimaryContainer">#CA6A6A</item>
+        <!--android:textColorPrimary поменял цвет текста-->
+        <item name="android:textColorPrimary">#CA6A6A</item>
+
+        <!--colorSecondary не сработал, android:colorSecondary и colorOnSecondary тоже-->
+        <item name="colorSecondary">#CA6A6A</item>
+        <item name="colorOnSecondary">#CA6A6A</item>
+        <!--android:textColorSecondary не дал изменений-->
+        <item name="android:textColorSecondary">#AC86EF</item>
+
+        <!--android:actionBarSize - меняет размер заголовка-->
+        <item name="android:actionBarSize">40dp</item>
         <item name="android:textSize">24sp</item>
-        <!--<item name="android:actionBarSize">40dp</item>-->
-        <!--  <item name="android:background">#C59BCC</item>-->
+        <item name="android:background">#BBB0D1</item>
+
+
     </style>
 
     <style name="Theme.ResourceProject" parent="Base.Theme.ResourceProject" />
+    <!--темы могут наследоваться от parent-->
 
-    <style name="MyButtonStyle" parent="Widget.Material3.Button">
+    <!--создадим наши кастомные стили для кнопки
+    виды стилей: с префиксом  Theme - это темы для всей программы и ли в целом для активити
+    а с префиксом Widget- это тема для отдельного элемента
+    c префиксом ShapeAppearance- базовый стиль для форм, компонентов-->
+    <style name="MyButtonStyle" parent="Widget.Material3.Button"/>
 
-    </style>
-</resources>
+
+    </resources>

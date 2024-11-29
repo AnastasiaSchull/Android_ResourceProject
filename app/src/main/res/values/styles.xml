@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--2-->
-    <style name="ColorButtonShape" parent="ShapeAppearance.Material3.SmallComponent">
+    <!--в этом файле будут набор стилей для нашей программы-->
+
+    <!--например, мы хотим сделать разноцветную кнопку, назовем стиль ColorButtonShape (стиль формы Shape)-->
+
+    <style name="ColorButtonShape" parent= "ShapeAppearance.Material3.SmallComponent">
         <item name="cornerSize">10dp</item>
     </style>
 
     <!--Color Theme-->
-<!--    <style name="ColorButton" parent="Widget.Material3.Button">
+    <style name="ColorButton" parent="Widget.Material3.Button">
+        <!--backgroundTint это цвет заливки-->
         <item name="backgroundTint">@color/ColorButton.Background</item>
         <item name="android:textColor">@color/ColorButton.Font</item>
-        <item name="strokeColor">@color/BlueButton.Border</item>
+        <!--strokeColor цвет рамки -->
+        <item name="strokeColor">@color/ColorButton.Border</item>
         <item name="strokeWidth">3dp</item>
-        &lt;!&ndash;<item name="cornerRadius">10dp</item>&ndash;&gt;
+        <!--можно выбрать cornerRadius или shapeAppearanceOverlay-->
+        <!--<item name="cornerRadius">10dp</item>-->
+        <!--в item "shapeAppearanceOverlay" - это комплексная настройка, тут мы можем указывать стили , которые сами создали ранее-->
         <item name="shapeAppearanceOverlay">@style/ColorButtonShape</item>
     </style>
-  <style name="Color.Theme.ResourceProject" parent="Theme.Material3.DayNight">
-       <item name="colorOnPrimary">#8EF692</item>
+
+    <!--создадим тему и в ней будем использовать кнопку
+    и далее в манифесте можем заменить в  android:theme="@style/Theme.ResourceProject" на "@style/Color.Theme.ResourceProject", либо же установить тему через код в mainActivity-->
+    <style name="Color.Theme.ResourceProject" parent="Theme.Material3.DayNight">
+        <!--colorOnPrimary не влияет на "три точки" скрытьго меню-->
+       <item name="colorOnPrimary">#0091EA</item>
        <item name="materialButtonStyle">@style/ColorButton</item>
-   </style>-->
+        <item name="android:background">#8966C7</item>
+    <item name="android:textColorPrimary">#5322AB</item>
+    </style>
 
-
+    <!--Д/з-->
     <!--Blue Theme-->
     <style name="BlueButton" parent="Widget.Material3.Button">
         <item name="backgroundTint">@color/BlueButton.Background</item>
@@ -28,51 +41,43 @@
         <item name="strokeWidth">3dp</item>
         <!--<item name="cornerRadius">10dp</item>-->
         <item name="shapeAppearanceOverlay">@style/ColorButtonShape</item>
+
     </style>
     <style name="Blue.Theme.ResourceProject" parent="Theme.Material3.DayNight">
-        <item name="colorOnPrimary">#8EF692</item>
+        <item name="colorOnPrimary">#0091EA</item>
         <item name="materialButtonStyle">@style/BlueButton</item>
+        <item name="android:background">#697DF0</item>
     </style>
 
-    <!--Д/з-->
-    <!--Light Theme -->
-    <style name="Light_Theme_MyProject" parent="Widget.Material3.Button">
-        <item name="colorPrimary">@color/light_gray</item>
-        <item name="colorPrimaryDark">@color/Light.Button.Border</item>
-        <item name="colorAccent">@color/Light.Font</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="materialButtonStyle">@style/Light_Theme_MyProject</item>
+    <style name="LightButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/LightButton.Background</item>
+        <item name="android:textColor">@color/LightButton.Font</item>
+        <item name="strokeColor">@color/LightButton.Button.Border</item>
+        <item name="strokeWidth">3dp</item>
+        <!--<item name="cornerRadius">10dp</item>-->
+        <item name="shapeAppearanceOverlay">@style/ColorButtonShape</item>
+    </style>
+    <style name="Light.Theme.ResourceProject" parent="Theme.Material3.DayNight">
+        <item name="colorOnPrimary">#0091EA</item>
+        <item name="materialButtonStyle">@style/LightButton</item>
+        <item name="android:background">#D9C6FB</item>
     </style>
 
-    <!--Д/з-->
     <!--Dark Theme -->
-    <style name="Dark_Theme_MyProject" parent="Widget.Material3.Button">
-        <item name="colorPrimary">@color/Dark.Background</item>
-        <item name="colorPrimaryDark">@color/Dark.Button.Background</item>
-        <item name="colorAccent">@color/Dark.Font</item>
-        <item name="android:textColor">@color/Dark.Font</item>
-        <item name="materialButtonStyle">@style/Dark_Theme_MyProject</item>
+    <style name="DarkButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/DarkButton.Background</item>
+        <item name="android:textColor">@color/DarkButton.Font</item>
+        <item name="strokeColor">@color/DarkButton.Button.Border</item>
+        <item name="strokeWidth">3dp</item>
+        <!--<item name="cornerRadius">10dp</item>-->
+        <item name="shapeAppearanceOverlay">@style/ColorButtonShape</item>
+    </style>
+    <style name="Dark.Theme.ResourceProject" parent="Theme.Material3.DayNight">
+        <item name="colorOnPrimary">#0091EA</item>
+        <item name="materialButtonStyle">@style/DarkButton</item>
+        <item name="android:background">#807C8A</item>
     </style>
 
-    <!--Д/з-->
-    <!--Blue Theme -->
-    <style name="Blue_Theme_MyProject" parent="Widget.Material3.Button">
-        <item name="colorPrimary">@color/Blue.Background</item>
-        <item name="colorPrimaryDark">@color/Blue.Button.Background</item>
-        <item name="colorAccent">@color/Blue.Font</item>
-        <item name="android:textColor">@color/Blue.Font</item>
-        <item name="materialButtonStyle">@style/Blue_Theme_MyProject</item>
-    </style>
-
-    <!--Д/з-->
-    <!--Color Theme -->
-    <style name="Color_Theme_MyProject" parent="Widget.Material3.Button">
-        <item name="colorPrimary">@color/Color.Background</item>
-        <item name="colorPrimaryDark">@color/Color.Button.Font</item>
-        <item name="colorAccent">@color/Color.Font</item>
-        <item name="android:textColor">@color/Color.Font</item>
-        <item name="materialButtonStyle">@style/Color_Theme_MyProject</item>
-    </style>
 
 
 </resources>

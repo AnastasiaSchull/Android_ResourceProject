@@ -55,10 +55,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Theme
+        //R.style.Название_Темы - это число, индекс темы
         //setTheme(R.style.Base_Theme_ResourceProject);
         //setTheme(R.style.Blue_Theme_ResourceProject);
         int themeId = preferences.getInt("theme_id", R.style.Blue_Theme_ResourceProject);  // default
         setTheme(themeId);
+
 
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
@@ -186,17 +188,17 @@ public class MainActivity extends AppCompatActivity {
 
 //Themes
         else if (itemId == R.id.lightThemeOption) {
-            editor.putInt("theme_id", R.style.Light_Theme_MyProject).apply();
+            editor.putInt("theme_id", R.style.Light_Theme_ResourceProject).apply();
             recreate();
         } else if (itemId == R.id.darkThemeOption) {
-            editor.putInt("theme_id", R.style.Dark_Theme_MyProject).apply();
+            editor.putInt("theme_id", R.style.Dark_Theme_ResourceProject).apply();
             recreate();
         } else if (itemId == R.id.blueThemeOption) {
-            editor.putInt("theme_id", R.style.Blue_Theme_MyProject).apply();
+            editor.putInt("theme_id", R.style.Blue_Theme_ResourceProject).apply();
             recreate();
         }
         else if (itemId == R.id.colorThemeOption) {
-            editor.putInt("theme_id", R.style.Color_Theme_MyProject).apply();
+            editor.putInt("theme_id", R.style.Color_Theme_ResourceProject).apply();
             recreate();
         }
 
